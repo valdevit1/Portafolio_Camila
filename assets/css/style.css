@@ -1,0 +1,21 @@
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+}
+
+
+/*
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+.conocimientos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
