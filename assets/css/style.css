@@ -1,21 +1,36 @@
-.contenedor {
+header {
     position: relative;
     display: inline-block;
     text-align: center;
     height: 300px;
+    width: 100%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../img/ny_photo_2.jpg');
+    background-position: center;
 }
 
-
-/*
 .texto-encima {
     position: absolute;
-    top: 10px;
-    left: 10px;
-} */
+    top: 100px;
+    left: 100px;
+} 
+
+.whoiam {
+    text-align: center;
+}
 
 .conocimientos {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.conocimientos i {
+    font-size: 50px;
+    text-align: center;
+}
+
+.conocimientos .info {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
 }
