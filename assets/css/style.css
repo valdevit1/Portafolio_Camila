@@ -4,7 +4,7 @@ header {
     text-align: center;
     height: 300px;
     width: 100%;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../img/ny_photo_2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../img/ny_photo_2.jpg');
     background-position: center;
 }
 
@@ -12,7 +12,7 @@ header {
     position: absolute;
     top: 100px;
     left: 100px;
-} 
+}
 
 .whoiam {
     text-align: center;
@@ -20,10 +20,14 @@ header {
 
 .conocimientos {
     align-items: center;
+}
+
+.conocimientos .information {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
+
 .conocimientos i {
     font-size: 50px;
     text-align: center;
@@ -34,14 +38,26 @@ header {
     width: 33%;
     text-align: center;
 }
-.picturework .picture{
+
+.conocimientos .saberes h2 {
+    text-align: center;
+}
+
+.picturework .picture {
     width: 200px;
     height: 150px;
-} 
+}
 
 .mywork {
     align-items: center;
+}
+
+.mywork .work {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+}
+
+.mywork .title h2 {
+    text-align: center;
 }
