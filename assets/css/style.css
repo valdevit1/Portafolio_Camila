@@ -1,3 +1,8 @@
+body {
+    font-family: 'Marck Script', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
 header {
     position: relative;
     display: inline-block;
@@ -6,6 +11,8 @@ header {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../img/ny_photo_2.jpg');
     background-position: center;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .texto-encima {
@@ -16,10 +23,14 @@ header {
 
 .whoiam {
     text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .conocimientos {
     align-items: center;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .conocimientos .information {
@@ -44,12 +55,14 @@ header {
 }
 
 .picturework .picture {
-    width: 200px;
-    height: 150px;
+    width: 340px;
+    height: 250px;
 }
 
 .mywork {
     align-items: center;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .mywork .work {
