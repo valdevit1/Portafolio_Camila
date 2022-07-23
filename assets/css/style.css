@@ -61,6 +61,7 @@ header {
 .picturework .picture {
     width: 340px;
     height: 250px;
+    border-radius: 5%;
 }
 
 .mywork {
@@ -77,4 +78,15 @@ header {
 
 .mywork .title h2 {
     text-align: center;
+}
+
+form .titleform {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Raleway', sans-serif;   
+}
+
+form .button {
+    text-align: center;
+  
 }
