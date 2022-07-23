@@ -34,3 +34,14 @@ header {
     width: 33%;
     text-align: center;
 }
+.picturework .picture{
+    width: 200px;
+    height: 150px;
+} 
+
+.mywork {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
