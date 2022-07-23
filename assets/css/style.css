@@ -15,7 +15,7 @@ header {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../img/ny_photo_2.jpg');
     background-position: center;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script';font-style: italic;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -88,5 +88,4 @@ form .titleform {
 
 form .button {
     text-align: center;
-  
 }
